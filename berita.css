@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.header-logo {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 1px;
+    background-color: rgb(252, 219, 219);
+    height: 100px;
+    width: 100%;
+}
+
+.header {
+    display: inline;
+}
+
+nav {
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav.header-list {
+    background-color: #e74c3c;
+    height: 55px;
+    width: 100%;
+}
+.header-list ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-list li {
+    float: left;
+    display: inline-block;
+    padding: 15px;
+    padding-right: 50px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    float: right;
+    padding-top: 10px;
+}
+.search {
+    padding:8px 15px;
+    background:white;
+    border:0px solid #dbdbdb;
+}
+
+.search:hover{
+    background-color: green;
+    color: white;
+}
+
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-5px;
+    border:2px solid green;
+    background-color: green;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:black;
+    border:2px solid #fafafa;
+}
+
+.main {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.post {
+    text-align: left;
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+.title-post {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    color:#e74c3c;
+}
+
+
+.content {
+    padding-left: 15px;
+    padding-top: 30px;
+} 
+
+.content p {
+    text-indent: 50px;
+}
+
+.content img {
+    height: 170px;
+    width: 300px;
+    margin-left: 270px;
+}
+
+.reference {
+    text-align: left;
+    width: 25%;
+    height: 1292px;
+    background-color: white;
+    float: left;
+}
+
+
+.profil {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-top: 20px;
+    background-color: rgb(189, 189, 189);
+    height: 100px;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.avatar img{
+    padding-left: 5px;
+    width: 65px;
+    height: 50px;
+}
+
+.username {
+    padding-left: 7px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    color:hsl(217, 19%, 35%);
+}
+
+.bio {
+    padding-left: 7px;
+    font-size: 12px;
+    color:hsl(217, 19%, 35%);
+}
+.tag {
+    padding-left: 15px;
+}
+
+.footer {
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+}
+
+.footer p {
+    padding-top: 1330px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
